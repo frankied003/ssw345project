@@ -63,7 +63,7 @@ Scene 3:
 Scene 4:  
 <img width="787" alt="scene 4" src="https://user-images.githubusercontent.com/78944642/155905632-70ce980e-bc62-427c-8942-f23baad96763.png">
 
-Scene 5: 
+Scene 5:  
 <img width="792" alt="scene 5" src="https://user-images.githubusercontent.com/78944642/155905634-d9e0cf4d-c79a-4b54-87b4-4f8b444ea5c8.png">
 
 Scene 6:  
