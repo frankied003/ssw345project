@@ -53,14 +53,19 @@ Storyboard:
 
 Scene 1:  
 <img width="790" alt="scene 1" src="https://user-images.githubusercontent.com/78944642/155905678-6c018d3c-c9ef-4b5a-947f-90b578f7cde1.png">
+
 Scene 2: 
 <img width="790" alt="Storyboard(1)" src="https://user-images.githubusercontent.com/78944642/155905581-ab638bcb-ae8c-4fac-ac56-3331c90f12c8.png">
+
 Scene 3:
 <img width="793" alt="Scene 3" src="https://user-images.githubusercontent.com/78944642/155905614-c87bd5e0-4f96-4c1c-9b60-e5a5b4316fe0.png">
+
 Scene 4:
 <img width="787" alt="scene 4" src="https://user-images.githubusercontent.com/78944642/155905632-70ce980e-bc62-427c-8942-f23baad96763.png">
+
 Scene 5: 
 <img width="792" alt="scene 5" src="https://user-images.githubusercontent.com/78944642/155905634-d9e0cf4d-c79a-4b54-87b4-4f8b444ea5c8.png">
+
 Scene 6:
 <img width="787" alt="scene 6" src="https://user-images.githubusercontent.com/78944642/155905640-77cb140e-ef62-4b87-92a5-3f13bf034632.png">
 
