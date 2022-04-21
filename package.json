@@ -1,0 +1,23 @@
+{
+  "name": "weathernot",
+  "version": "1.0.0",
+  "description": "Discord application to help choose the correct clothing based on the weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankied003/ssw345project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankied003/ssw345project/issues"
+  },
+  "homepage": "https://github.com/frankied003/ssw345project#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
