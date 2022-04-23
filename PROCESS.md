@@ -45,6 +45,7 @@ Iteration 1:
 
 Iteration 2:
 <img width="958" alt="image" src="https://user-images.githubusercontent.com/78944642/164934319-f7ecd2d1-2adb-472b-ac75-dad47feb0c92.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/78944642/164946773-61d06d52-9352-4cab-a352-269618571632.png">
 
 # Meeting Notes/Agenda 
 1. February 20th, 2022
@@ -70,7 +71,11 @@ Iteration 2:
    * Continue to progress through bot project
    * Finalize basic functions 
 6. April 23rd, 2022
-   * ...
+   * Finalize iteration 2 
+   * Make final commits by the end of day
+   * Finalize Process.md file 
+   * Discussed future final steps 
+ 
 # Iteration Documentation
 1. Iteration 1
    * End date: ...
@@ -86,7 +91,7 @@ Iteration 2:
      * create recommendations based on weather API data 
      * get parameters from slash command to hook up into API
    * Process Reflection
-     * Iteration 1 was really basic, but we got to a late start. Creating a the account and server for discord was relatively straightforward, but adding a discord bot to the server was a little tricky. Most of the process was actually no code - it was through the developer portal provided by discord. One issue that was arising was permissions of the discord bot was not set. This was fixed by adding permissions in the developer portal. Creating the discord command was also a big task, but there were a few tutorials online to assist in this proccess.
+     * Iteration 1 was really basic, but we got to a late start. Creating the account and server for discord was relatively straightforward, but adding a discord bot to the server was a little tricky. Most of the process was actually no code - it was through the developer portal provided by discord. One issue that was arising was permissions of the discord bot was not set. This was fixed by adding permissions in the developer portal. Creating the discord command was also a big task, but there were a few tutorials online to assist in this process.
 2. Iteration 2
    * End date: ...
    * Completed Tasks
@@ -94,8 +99,8 @@ Iteration 2:
      * get parameters from slash command to hook up into API
      * return weather to user for zip code passed in parameter
    * Incomplete Tasks
-     * Create /recommend command
-     * Have recommend command return clothing recommendations 
-     * Format messages to look appealing
+     * create /recommend command
+     * have recommend command return clothing recommendations 
+     * format messages to look appealing
    * Process Reflection
      * This iteration was much more difficult than the first. This was due to hooking up the OpenWeather API, which is a third party API to provide weather data. One main issue we had was setting up the command to take in a zip code, but after this was done, the bot was consistent at returning weather data for that location.
