@@ -35,7 +35,7 @@ None.
 5. Create basic discord command 
 6. Hookup OpenWeather API
 7. Get parameters from slash command to hook up into API 
-8. Create recommendations based on weather API data 
+8. Create recommendations based on weather API data and zip code
 9. Format bot message to look appealing 
 
 # Kanban Screenshots
@@ -78,21 +78,6 @@ Iteration 2:
      * create an account for the server
      * create discord application within discord developer portal 
      * create the server
-   * Incomplete Tasks
-     * add discord bot to server using discord.js
-     * create basic discord command 
-     * hookup OpenWeather API
-     * format bot message to look appealing 
-     * create recommendations based on weather API data 
-     * get parameters from slash command to hook up into API
-   * Process Reflection
-     * ...
-2. Iteration 2
-   * End date: ...
-   * Completed Tasks
-     * create an account for the server
-     * create discord application within discord developer portal 
-     * create the server
      * add discord bot to server using discord.js
      * create basic discord command
    * Incomplete Tasks
@@ -101,6 +86,16 @@ Iteration 2:
      * create recommendations based on weather API data 
      * get parameters from slash command to hook up into API
    * Process Reflection
-     * ...
-
-# Overall Reflection 
+     * Iteration 1 was really basic, but we got to a late start. Creating a the account and server for discord was relatively straightforward, but adding a discord bot to the server was a little tricky. Most of the process was actually no code - it was through the developer portal provided by discord. One issue that was arising was permissions of the discord bot was not set. This was fixed by adding permissions in the developer portal. Creating the discord command was also a big task, but there were a few tutorials online to assist in this proccess.
+2. Iteration 2
+   * End date: ...
+   * Completed Tasks
+     * hookup OpenWeather API
+     * get parameters from slash command to hook up into API
+     * return weather to user for zip code passed in parameter
+   * Incomplete Tasks
+     * Create /recommend command
+     * Have recommend command return clothing recommendations 
+     * Format messages to look appealing
+   * Process Reflection
+     * This iteration was much more difficult than the first. This was due to hooking up the OpenWeather API, which is a third party API to provide weather data. One main issue we had was setting up the command to take in a zip code, but after this was done, the bot was consistent at returning weather data for that location.
