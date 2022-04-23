@@ -48,29 +48,29 @@ Iteration 2:
 
 # Meeting Notes/Agenda 
 1. February 20th, 2022
-  * Finalize use cases
-  * Finalize design sketches
-  * Start putting together storyboard
-  * Finalize architecture design 
+   * Finalize use cases
+   * Finalize design sketches
+   * Start putting together storyboard
+   * Finalize architecture design 
 2. February 27th, 2022
-  * Overall on track 
-  * Finalize design.md 
+   * Overall on track 
+   * Finalize design.md 
 3. March 27th, 2022
-  * Discuss steps for first iteration 
-  * Create story points based on use cases
-  * Work was divided 
+   * Discuss steps for first iteration 
+   * Create story points based on use cases
+   * Work was divided 
 4. April 17, 2022
-  * Finalize iteration 1 
-  * Create story points for iteration 2
-  * Divide work for iteration 2
+   * Finalize iteration 1 
+   * Create story points for iteration 2
+   * Divide work for iteration 2
 5. April 21st, 2022
-  * Process.md file needs to be completed
-  * Kanban board needs story point updates
-  * Add more issues
-  * Continue to progress through bot project
-  * Finalize basic functions 
+   * Process.md file needs to be completed
+   * Kanban board needs story point updates
+   * Add more issues
+   * Continue to progress through bot project
+   * Finalize basic functions 
 6. April 23rd, 2022
-  * ...
+   * ...
 # Iteration Documentation
 1. Iteration 1
    * End date: ...
