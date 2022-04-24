@@ -78,7 +78,7 @@ Iteration 2:
  
 # Iteration Documentation
 1. Iteration 1
-   * End date: ...
+   * End date: April 18th, 2022
    * Completed Tasks
      * create an account for the server
      * create discord application within discord developer portal 
@@ -93,7 +93,7 @@ Iteration 2:
    * Process Reflection
      * Iteration 1 was really basic, but we got to a late start. Creating the account and server for discord was relatively straightforward, but adding a discord bot to the server was a little tricky. Most of the process was actually no code - it was through the developer portal provided by discord. One issue that was arising was permissions of the discord bot was not set. This was fixed by adding permissions in the developer portal. Creating the discord command was also a big task, but there were a few tutorials online to assist in this process.
 2. Iteration 2
-   * End date: ...
+   * End date: April 23rd, 2022
    * Completed Tasks
      * hookup OpenWeather API
      * get parameters from slash command to hook up into API
