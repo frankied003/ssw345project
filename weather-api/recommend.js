@@ -4,37 +4,44 @@ dotenv.config();
 
 export const checkWeather = async (data, msg) => {
   if (data.temp.max < 40) {
-    const file = new MessageAttachment("./img/jacket.png");
     const exampleEmbed = new MessageEmbed()
       .setTitle("It's cold. You should wear a jacket today.")
-      .setImage("attachment://jacket.png");
+      .setDescription(`🧥 Jacket\n👖 Pants\n🧣 Scarf\n🧤 Gloves\n👟 Sneakers`);
 
-    msg.channel.send({ embeds: [exampleEmbed], files: [file] });
+    msg.channel.send({ embeds: [exampleEmbed] });
   }
 
   if (data.temp.max >= 40 && data.temp.max < 60) {
-    const file = new MessageAttachment("./img/hoodie.png");
     const exampleEmbed = new MessageEmbed()
       .setTitle(
-        "Not too cold. Not too warm. You should wear a light jacket or sweater."
+        "Not too cold. Not too warm. Here's what you should wear today:"
       )
-      .setImage("attachment://hoodie.png");
+      .setDescription(`🧥 Light Jacket\n👖 Pants\n👟 Sneakers`);
 
-    msg.channel.send({ embeds: [exampleEmbed], files: [file] });
+    msg.channel.send({ embeds: [exampleEmbed] });
   }
 
   if (data.temp.max >= 60) {
-    const file = new MessageAttachment("./img/shorts.png");
     const exampleEmbed = new MessageEmbed()
-      .setTitle("It's warm out. You should wear a nice pair of shorts!")
-      .setImage("attachment://shorts.png");
+      .setTitle("It's warm out. Here's what you should wear today:")
+      .setDescription(`👕 T-shirt\n🩳 Shorts\n🕶 Sunglasses\n👟 Sneakers`);
 
-    msg.channel.send({ embeds: [exampleEmbed], files: [file] });
+    msg.channel.send({ embeds: [exampleEmbed] });
   }
 
   if (data.snow) {
+    const exampleEmbed = new MessageEmbed()
+      .setTitle("Snow is in the forecast for today:")
+      .setDescription(`🥾 Don't forget your boots!`);
+
+    msg.channel.send({ embeds: [exampleEmbed] });
   }
 
   if (data.rain) {
+    const exampleEmbed = new MessageEmbed()
+      .setTitle("Rain is in the forecast for today:")
+      .setDescription(`Bring your 🥾 rain boots and an ⛱ umbrella!`);
+
+    msg.channel.send({ embeds: [exampleEmbed] });
   }
 };

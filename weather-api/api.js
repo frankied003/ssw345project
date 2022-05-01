@@ -28,6 +28,31 @@ export const getWeatherForZIP = async (zip) => {
       key: process.env.GOOGLE_API_KEY,
     }
   );
+  console.log(getCoordsReq);
+  const latitude = getCoordsReq.results[0].geometry.location.lat;
+  const longitude = getCoordsReq.results[0].geometry.location.lng;
+  console.log({ latitude, longitude });
+  const weatherDataReq = await getRequest(
+    "https://api.openweathermap.org/data/2.5/onecall",
+    {
+      lat: latitude,
+      lon: longitude,
+      exclude: "minutely",
+      appid: process.env.WEATHER_API_KEY,
+    }
+  );
+  console.log(weatherDataReq);
+  return weatherDataReq;
+};
+
+export const getDailyWeatherForZIP = async (zip) => {
+  const getCoordsReq = await getRequest(
+    "https://maps.googleapis.com/maps/api/geocode/json",
+    {
+      address: zip,
+      key: process.env.GOOGLE_API_KEY,
+    }
+  );
   //console.log(getCoordsReq);
   const latitude = getCoordsReq.results[0].geometry.location.lat;
   const longitude = getCoordsReq.results[0].geometry.location.lng;

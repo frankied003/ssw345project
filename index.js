@@ -33,7 +33,7 @@ client.on("message", async (msg) => {
     }
     msg.reply("Getting your clothing recommendations...");
 
-    const data = await getWeatherForZIP(messageContentArray[1]);
+    const data = await getDailyWeatherForZIP(messageContentArray[1]);
 
     await checkWeather(data, msg);
   }
