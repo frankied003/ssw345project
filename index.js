@@ -1,5 +1,5 @@
 import { Client, Intents, MessageAttachment, MessageEmbed } from "discord.js";
-import { getWeatherForZIP } from "./weather-api/api.js";
+import { getWeatherForZIP, getDailyWeatherForZIP } from "./weather-api/api.js";
 import dotenv from "dotenv";
 import { checkWeather } from "./weather-api/recommend.js";
 dotenv.config();
