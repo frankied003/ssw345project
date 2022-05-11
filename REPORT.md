@@ -23,7 +23,9 @@ The next step was to create the recommendations which was a more difficult aspec
 After combining these two methods and having the return values, we were able to hook up commands within the bot to parse zip codes from the message and return the data.
 
 # Limitations 
-The current limitation is that it is a little hard to read the current weather and differentiate the time between the day. So if it rains at night, but is perfect during the day, the bot will not recommend the correct clothing for the night. Additionally, the bot is only able to be specific to zip code and that's it. Even though the zip code is good enough and is not too big of a mile radius, it's not perfect.
+The present drawback is that it is difficult to understand the current weather and differentiate between the hours of the day. So, if it rains at night but is sunny during the day, the bot will not offer appropriate apparel for the evening. Furthermore, the bot can only be restricted to a single zip code. Even if the zip code is adequate and has a reasonable radius, it is not ideal.
+
+Another limitation is that the open weather API is a data-heavy service. It generated extra data that was difficult to handle. Even with their softer comeback, there was still much too much information. When we tried to parse the API data into Discord, we ran across a character restriction of 2000 characters. Making it difficult to deliver a concise output.
 
 # Future Work 
 In the future, we hope to implement a feature where users can get clothing recommendations for the morning, evening, and night. Right now the bot allows users to get the clothing recommendations based on the weather in that specific area at that specific time. We hope to implement a feature that will show clothing recommendations for the whole day in case there is unpredictable weather such as rain later in the day to let the user know they will need to wear a hoodie or bring an umbrella.
